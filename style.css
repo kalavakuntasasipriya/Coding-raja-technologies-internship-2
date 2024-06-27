@@ -1,0 +1,74 @@
+body{
+    background-image: url(6.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  h1{
+    color:transparent;
+    text-align: center;
+    font-size: 5rem;
+    padding: 8%;
+    margin-bottom: 0;
+    font-family: 'Kalam', cursive;
+    margin-top: 70px;
+
+  }
+  h1:hover{
+    color:wheat;
+  }
+button{
+    margin-top: 40px;
+    width: 400px;
+    height: 80px;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+     cursor: pointer;
+     align-items: center;
+     font-size: 20px;
+     color: antiquewhite;
+     margin-right: 10px;
+}
+button:hover{
+    background-color:#040D12 ;
+    color: beige;
+}
+.buttoncon{
+    margin-left: 400px;
+  
+}
+.login{
+    background-color:transparent;
+}
+.play{
+    background-color:transparent;
+}
+@media only screen and (max-width: 767px) {
+    body{
+        background-image: url(6.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+      
+      }
+    button{
+        margin-top: 80px;
+        width: fit-content;
+        height: 30px;
+        border-radius: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+         cursor: pointer;
+         align-items: center;
+         font-size: 20px;
+         color: antiquewhite;
+         margin-right: 10px;
+    }
+    button:hover{
+        background-color:#040D12 ;
+        color: beige;
+    }
+    .buttoncon{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}

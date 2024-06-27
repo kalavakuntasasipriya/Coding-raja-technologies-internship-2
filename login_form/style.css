@@ -1,0 +1,90 @@
+body{
+    background-image: url(pexels-moose-photos-1037992.jpg);
+   text-align: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+form {
+    width: 300px;
+    height: 400px;
+    padding: 3%;
+    margin-left: 36%;
+    margin-top: 15%;
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+}
+form .input-box input{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 2% 2% 2% 2%;
+    width: 250px;
+    text-align:left ;
+    background-color: transparent;
+   
+}
+
+.bottom{
+    margin-left: 30px;
+    text-decoration: none;
+}
+button{
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#040D12 ;
+    color: beige;
+}
+.container{
+    width: 300px;
+    margin-left: 20%;
+    background-color: transparent;
+}
+h1{
+   padding-bottom: 30px;
+   margin-top: 0px;
+}
+.news{
+    margin-left: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+
+    
+       
+    form {
+        width: 300px;
+        height: 400px;
+        padding: 3%;
+        margin-left: 13%;
+        margin-top: 15%;
+        background-color: transparent;
+        border-radius: 30px;
+        border-color: black;
+        border-style: solid;
+        align-items: center;
+        box-shadow: 4px 1px 10px #FF3FA4;
+       
+    }
+    form:hover{
+
+    }
+  body{
+    background-image: url(h.jpg);
+    background-size: cover;
+  }
+
+}
+
+
